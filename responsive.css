@@ -1,0 +1,35 @@
+body{
+    background-color: red;
+}
+div{
+    color: black;
+    font-size: small;
+}
+
+@media screen and (min-width: 480px) {
+    body{
+        background-color: green;
+    }
+    .small{
+        width: 66%;
+        background-color: rgb(231, 239, 119);
+    }
+    .medium{
+        width: 33%;
+        background-color: aqua;
+    }
+    .large{
+        width: 100%;
+        background-color: bisque;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    body{
+        background-color: blue;
+    }
+    div{
+        display: inline;
+        width: auto;
+    }
+}
